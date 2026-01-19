@@ -1,0 +1,7 @@
+# gym==0.21.0
+gymnasium
+numpy
+pandas
+matplotlib
+stable-baselines3
+tensorboard
