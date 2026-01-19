@@ -262,7 +262,7 @@ class MotoGPEnv(gym.Env):
         v_norm = self.v / V_MAX_STRAIGHT
 
         if mu_used_est is None:
-            # estimation très grossière du grip
+            # estimation du grip
             a_lat = self.v ** 2 * k0
             a_total = abs(a_lat)
             mu_used_est = a_total / (MU_TIRE * G) if MU_TIRE > 0 else 0.0

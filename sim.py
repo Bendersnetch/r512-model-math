@@ -15,7 +15,7 @@ from tkinter import filedialog
 
 G = 9.81  # gravité (m/s²)
 
-# --- Paramètres MotoGP (ton modèle) ---
+# --- Paramètres MotoGP ---
 P = 220_000        # W - puissance
 m = 240            # kg - masse moto + pilote
 k_aero = 0.18      # coef aéro
@@ -339,7 +339,7 @@ def simulate_lap_with_friction(
 
 def animate_lap(track, history, interval_ms=20, frame_step=1):
     """
-    Prépare l’animation (ne fait PAS plt.show()).
+    Prépare l’animation.
     frame_step : nombre de frames de simulation sautées
                  (1 = tout, 2 = 1 sur 2, 5 = 1 sur 5 → plus rapide)
     """

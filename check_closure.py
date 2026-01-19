@@ -23,7 +23,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox
 
 
-# --- paramètres de tolérance (ajuste comme tu veux) ---
+# --- paramètres de tolérance ---
 INTEGRAL_TOL = 0.1   # m, sur ∫cosθ ds et ∫sinθ ds
 GEOM_TOL = 5.0       # m, distance départ–arrivée max
 S_COL = "s_m"

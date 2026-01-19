@@ -5,7 +5,7 @@ import numpy as np
 # Gravité
 G = 9.81  # m/s²
 
-# Paramètres MotoGP tirés de ton modèle
+# Paramètres MotoGP tirés du modèle
 P = 220_000        # W - puissance
 m = 240            # kg - moto + pilote
 k_aero = 0.18      # coef aéro
